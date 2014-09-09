@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+body,td,th {
+	color: #000000;
+}
+body {
+	/* [disabled]background-color: #FFFFFF; */
+	background-image: url(images/body_bg.jpg);
+	/* [disabled]background-repeat: repeat-x; */
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.normal { background-color: #FFF; color: #000;}
+.highlight { background-color: #99FFFF; color: #000; }
+.heading {font-family: Verdana; fon font-size: 11px; color: #FFFFFF; background:#333399; }
+
+
+.imageborder{
+	display: block; position: relative; z-index: 0;
+	-webkit-padding:1px;
+	-moz-padding:1px;
+	padding:5px;
+	background:#EAEAEA;
+	-webkit-margin-top:1px;
+	-moz-margin-top:1px;
+	margin-top:1px;
+	-webkit-border-radius: .2em; 
+	-moz-border-radius: .2em;
+	border-radius: .4em;
+}
+
+.loginborder{
+	display: block; position: relative; z-index: 0;
+	-webkit-padding:1px;
+	-moz-padding:1px;
+	padding:5px;
+	background:#bdd7fa;
+	-webkit-margin-top:1px;
+	-moz-margin-top:1px;
+	margin-top:1px;
+	-webkit-border-radius: .2em; 
+	-moz-border-radius: .2em;
+	border-radius: .4em;
+}
+
+
+.fieldset {
+border: thin solid #0a3e89;
+}
+
+.legend {
+color: #FFF;
+background: #0a3e89;
+font-size: 11px;
+padding: 3px;
+
+}
+
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+a.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+a.footer:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+}
+.text {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+.errortext {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: red;
+	text-decoration: none;
+}
+a.text {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+a.text:hover {
+	font-family: Tahoma;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: underline;
+}

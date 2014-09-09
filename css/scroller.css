@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#pscroller1{
+width: 300px;
+height: 250px;
+border: 1px solid black;
+padding: 5px;
+background-color: white;
+}
+
+#pscroller2{
+width: 350px;
+height: 20px;
+border: 1px solid white;
+padding: 3px;
+}
+
+#pscroller2 a{
+text-decoration: none;
+}
+
+.someclass{ //class to apply to your scroller(s) if desired
+}
+
